@@ -11,6 +11,12 @@ doit proc
 
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
 	
+	; ----------------------- Alternating Operations - Our Next Challenge ------------------------------------------
+
+
+
+	ret
+
 	; ----------------- Assembly - Jump Overflow ------------------------------------
 
 	; Static - means its loaded, it exist for the entire duration of the program
@@ -53,11 +59,11 @@ doit proc
 	
 	; -------- How overflow bit turn on ---------
 
-	mov eax, 0ffffffffh
-	mov ebx, 2
-	mul ebx
-
-	ret
+;	mov eax, 0ffffffffh
+;	mov ebx, 2
+;	mul ebx
+;
+;	ret
 
 	; ----------------- Assembly - Static Memory ---------------------------------------
 
