@@ -4,7 +4,7 @@
 .stack 100h
 .data
 ;count dword ?		; -------> ---- Assembly Adding Powers ----
-	counter dword 0		; dword(doubleWord) is 32bits and 2words ---> 1byte=8bits, 2bytes=word, 4bytes(32bits)=2words -> dword
+;	counter dword 0		; dword(doubleWord) is 32bits and 2words ---> 1byte=8bits, 2bytes=word, 4bytes(32bits)=2words -> dword
 .code
 
 doit proc
@@ -15,7 +15,6 @@ doit proc
 
 
 
-	ret
 
 	; ----------------- Assembly - Jump Overflow ------------------------------------
 
